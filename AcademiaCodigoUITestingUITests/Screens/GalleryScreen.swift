@@ -8,15 +8,8 @@
 
 import XCTest
 
-class SecondScreenUITests: XCTestCase {
-    
-    let app = XCUIApplication()
-    
-    override func setUp() {
-        super.setUp()
-        app.launch()
-    }
-    
+class GalleryScreen: Screen, TabBar {
+
     private var elementACLogo: XCUIElement {
         return app.images["AC_LOGO_FULL"].firstMatch
     }
