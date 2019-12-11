@@ -10,4 +10,11 @@ import XCTest
 
 class HomeScreen: Screen, TabBar {
 
+    private var elementACLogo: XCUIElement {
+        return app.images["AC_LOGO_FULL"].firstMatch
+    }
+
+    func validate() {
+        XCTAssertTrue(elementACLogo.exists)
+    }
 }

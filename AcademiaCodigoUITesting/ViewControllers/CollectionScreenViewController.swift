@@ -7,8 +7,21 @@
 //
 
 import UIKit
+class CollectionScreenViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
-class CollectionScreenViewController: UIViewController {
+    @IBOutlet var collectionView: UICollectionView!
+
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 10
+    }
+
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "KittenCell", for: indexPath) as! KittenCell
+
+        cell.loadImage(with: <#T##UIImage#>)
+        return cell
+    }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()

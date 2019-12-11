@@ -29,6 +29,11 @@
 		417D4DC723A08457008009C6 /* HomeSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D4DC623A08457008009C6 /* HomeSteps.swift */; };
 		417D4DC923A0854D008009C6 /* GallerySteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D4DC823A0854D008009C6 /* GallerySteps.swift */; };
 		417D4DCB23A085B0008009C6 /* GalleryFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D4DCA23A085B0008009C6 /* GalleryFeature.swift */; };
+		417D4DCD23A08AFD008009C6 /* CollectionScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D4DCC23A08AFD008009C6 /* CollectionScreenViewController.swift */; };
+		417D4DD023A08C3F008009C6 /* KittenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D4DCF23A08C3F008009C6 /* KittenCell.swift */; };
+		417D4DD223A08C68008009C6 /* KittenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417D4DD123A08C68008009C6 /* KittenCell.xib */; };
+		417D4DD523A08DE5008009C6 /* Kitten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D4DD423A08DE5008009C6 /* Kitten.swift */; };
+		417D4DD823A095E8008009C6 /* KittenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D4DD723A095E8008009C6 /* KittenService.swift */; };
 		41D8D98F23A0621E00D49725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D98E23A0621E00D49725 /* AppDelegate.swift */; };
 		41D8D99123A0621E00D49725 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D99023A0621E00D49725 /* SceneDelegate.swift */; };
 		41D8D99323A0621E00D49725 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D99223A0621E00D49725 /* HomeViewController.swift */; };
@@ -64,6 +69,11 @@
 		417D4DC623A08457008009C6 /* HomeSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSteps.swift; sourceTree = "<group>"; };
 		417D4DC823A0854D008009C6 /* GallerySteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallerySteps.swift; sourceTree = "<group>"; };
 		417D4DCA23A085B0008009C6 /* GalleryFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryFeature.swift; sourceTree = "<group>"; };
+		417D4DCC23A08AFD008009C6 /* CollectionScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionScreenViewController.swift; sourceTree = "<group>"; };
+		417D4DCF23A08C3F008009C6 /* KittenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenCell.swift; sourceTree = "<group>"; };
+		417D4DD123A08C68008009C6 /* KittenCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KittenCell.xib; sourceTree = "<group>"; };
+		417D4DD423A08DE5008009C6 /* Kitten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitten.swift; sourceTree = "<group>"; };
+		417D4DD723A095E8008009C6 /* KittenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenService.swift; sourceTree = "<group>"; };
 		41D8D98B23A0621E00D49725 /* AcademiaCodigoUITesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcademiaCodigoUITesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D8D98E23A0621E00D49725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41D8D99023A0621E00D49725 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +111,7 @@
 			children = (
 				41D8D99223A0621E00D49725 /* HomeViewController.swift */,
 				41D8D99423A0621E00D49725 /* GalleryViewController.swift */,
+				417D4DCC23A08AFD008009C6 /* CollectionScreenViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -117,6 +128,7 @@
 		417D4D9423A07677008009C6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				417D4DCE23A08BDE008009C6 /* Cells */,
 				417D4D9523A07687008009C6 /* StoryBoards */,
 			);
 			path = Views;
@@ -180,6 +192,31 @@
 			path = Features;
 			sourceTree = "<group>";
 		};
+		417D4DCE23A08BDE008009C6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				417D4DCF23A08C3F008009C6 /* KittenCell.swift */,
+				417D4DD123A08C68008009C6 /* KittenCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		417D4DD323A08DD9008009C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				417D4DD423A08DE5008009C6 /* Kitten.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		417D4DD623A095D8008009C6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				417D4DD723A095E8008009C6 /* KittenService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		41D8D98223A0621E00D49725 = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +238,8 @@
 		41D8D98D23A0621E00D49725 /* AcademiaCodigoUITesting */ = {
 			isa = PBXGroup;
 			children = (
+				417D4DD623A095D8008009C6 /* Service */,
+				417D4DD323A08DD9008009C6 /* Model */,
 				417D4DBF23A08102008009C6 /* Accessibility */,
 				41D8D99E23A0621E00D49725 /* Info.plist */,
 				41D8D99923A0621E00D49725 /* Assets.xcassets */,
@@ -307,6 +346,7 @@
 			files = (
 				41D8D99D23A0621E00D49725 /* LaunchScreen.storyboard in Resources */,
 				41D8D99A23A0621E00D49725 /* Assets.xcassets in Resources */,
+				417D4DD223A08C68008009C6 /* KittenCell.xib in Resources */,
 				41D8D99823A0621E00D49725 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,9 +369,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D8D99523A0621E00D49725 /* GalleryViewController.swift in Sources */,
+				417D4DD023A08C3F008009C6 /* KittenCell.swift in Sources */,
+				417D4DD523A08DE5008009C6 /* Kitten.swift in Sources */,
 				41D8D99323A0621E00D49725 /* HomeViewController.swift in Sources */,
 				417D4DC123A08112008009C6 /* Accessibility.swift in Sources */,
 				41D8D98F23A0621E00D49725 /* AppDelegate.swift in Sources */,
+				417D4DD823A095E8008009C6 /* KittenService.swift in Sources */,
+				417D4DCD23A08AFD008009C6 /* CollectionScreenViewController.swift in Sources */,
 				41D8D99123A0621E00D49725 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

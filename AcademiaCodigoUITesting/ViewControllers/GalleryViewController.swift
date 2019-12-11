@@ -15,6 +15,12 @@ class GalleryViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func goToNextScreen(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "CollectionScreen") as! CollectionScreenViewController
+        self.navigationController?.pushViewController(controller, animated: true)
+        
+    }
+    
 }
 

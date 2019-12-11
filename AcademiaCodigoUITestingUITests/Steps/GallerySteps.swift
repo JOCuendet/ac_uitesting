@@ -17,7 +17,7 @@ class GallerySteps: UIStepDefiner {
         }
 
         createStep(withName: "I should see all of it's elements") {
-            $0.galleryScreen.testElements()
+            $0.galleryScreen.validateScreen()
         }
     }
 }

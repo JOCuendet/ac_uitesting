@@ -7,3 +7,19 @@
 //
 
 import Foundation
+import UIKit
+
+class KittenCell: UICollectionViewCell {
+
+    @IBOutlet var imageView: UIImageView!
+    
+override func awakeFromNib() {
+      super.awakeFromNib()
+      // Initialization code
+  }
+
+  public func loadImage(with image: UIImage){
+      self.imageView.image = image
+  }
+    
+}

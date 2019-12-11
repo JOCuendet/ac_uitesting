@@ -19,6 +19,7 @@ class AppSteps: UIStepDefiner {
 
         createStep(withName: "I launch the app") {
             self.start(app: $0.appScreen)
+            $0.homeScreen.validate()
         }
     }
 }
