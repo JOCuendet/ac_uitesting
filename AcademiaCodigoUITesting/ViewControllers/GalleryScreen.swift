@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  AcademiaCodigoUITesting
 //
 //  Created by jonathan Cuendet on 10/12/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class GalleryScreen: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

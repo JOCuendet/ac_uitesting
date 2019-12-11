@@ -8,7 +8,7 @@
 
 import XCTest
 
-class SecondScreenUITests: XCTestCase {
+class GalleryScreen: XCTestCase {
     
     let app = XCUIApplication()
     

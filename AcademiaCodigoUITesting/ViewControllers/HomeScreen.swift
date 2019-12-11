@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  AcademiaCodigoUITesting
 //
 //  Created by jonathan Cuendet on 10/12/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class HomeScreen: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
