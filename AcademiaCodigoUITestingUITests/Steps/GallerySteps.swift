@@ -10,14 +10,12 @@ import Foundation
 import XCTest
 
 class GallerySteps: UIStepDefiner {
+
     override func createThenSteps() {
-
-        createStep(withName: "I navigate to the gallery screen") {
-            $0.homeScreen.openNavigationWith(option: .gallery)
-        }
-
-        createStep(withName: "I should see all of it's elements") {
-            $0.galleryScreen.validateScreen()
+        createStep(withName: "I should see the gallery screen") {
+            $0.galleryScreen.await()
+            $0.galleryScreen.validate()
         }
     }
+    
 }

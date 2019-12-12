@@ -10,14 +10,14 @@ import XCTest
 
 enum TabBarOptions: String {
     case home
-    case gallery
+    case more
 
     var accessibilityLabel: String {
         switch self {
         case .home:
             return "Home"
-        case .gallery:
-            return "Gallery"
+        case .more:
+            return "More"
         }
     }
 }

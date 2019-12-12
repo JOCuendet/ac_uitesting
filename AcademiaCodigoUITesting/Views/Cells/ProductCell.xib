@@ -9,15 +9,15 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="KittenCell" id="8Zw-9D-Mt0" customClass="KittenCell" customModule="AcademiaCodigoUITesting" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="380" height="499"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="8Zw-9D-Mt0" customClass="ProductCell" customModule="AcademiaCodigoUITesting" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="260" height="650"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zCw-Fr-Rtm">
-                <rect key="frame" x="0.0" y="0.0" width="380" height="499"/>
+                <rect key="frame" x="0.0" y="0.0" width="260" height="650"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vkx-z6-HzZ">
-                        <rect key="frame" x="0.0" y="0.0" width="380" height="499"/>
+                        <rect key="frame" x="0.0" y="0.0" width="260" height="650"/>
                     </imageView>
                 </subviews>
                 <constraints>

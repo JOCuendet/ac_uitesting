@@ -11,10 +11,20 @@ import XCTest
 class HomeScreen: Screen, TabBar {
 
     private var elementACLogo: XCUIElement {
-        return app.images["AC_LOGO_FULL"].firstMatch
+        return app.images[Accessibility.acBanner.identifier].firstMatch
+    }
+
+    private var elementTextArea: XCUIElement {
+        return app.textViews[Accessibility.introTextArea.identifier].firstMatch
+    }
+
+    private var elementMainTabBar: XCUIElement {
+        return app.tabBars.firstMatch
     }
 
     func validate() {
         XCTAssertTrue(elementACLogo.exists)
+        XCTAssertTrue(elementTextArea.exists)
+        XCTAssertTrue(elementMainTabBar.exists)
     }
 }

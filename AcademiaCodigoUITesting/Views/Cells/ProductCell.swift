@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class KittenCell: UICollectionViewCell {
+class ProductCell: UICollectionViewCell {
 
     @IBOutlet var imageView: UIImageView!
     

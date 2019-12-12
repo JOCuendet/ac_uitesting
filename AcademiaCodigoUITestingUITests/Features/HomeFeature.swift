@@ -21,8 +21,8 @@ class HomeFeature: UITestCase {
         )
     }
 
-    func testLoginUser() {
-
+    func testValidateHomeScreen() {
         executeStep("Given I launch the app")
+            // TODO
     }
 }
