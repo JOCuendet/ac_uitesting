@@ -12,14 +12,14 @@
 		417D4D9823A077C4008009C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D98E23A0621E00D49725 /* AppDelegate.swift */; };
 		417D4D9923A077C7008009C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D99023A0621E00D49725 /* SceneDelegate.swift */; };
 		417D4D9A23A077CC008009C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D8D99923A0621E00D49725 /* Assets.xcassets */; };
-		417D4D9B23A077D6008009C6 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D99223A0621E00D49725 /* HomeScreen.swift */; };
-		417D4D9C23A077D8008009C6 /* GalleryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D99423A0621E00D49725 /* GalleryScreen.swift */; };
+		417D4D9B23A077D6008009C6 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D99223A0621E00D49725 /* HomeScreenViewController.swift */; };
+		417D4D9C23A077D8008009C6 /* GalleryScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D99423A0621E00D49725 /* GalleryScreenViewController.swift */; };
 		417D4DAC23A07B5B008009C6 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D4DAB23A07B5B008009C6 /* HomeScreen.swift */; };
 		417D4DAE23A07B79008009C6 /* GalleryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D4DAD23A07B79008009C6 /* GalleryScreen.swift */; };
 		41D8D98F23A0621E00D49725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D98E23A0621E00D49725 /* AppDelegate.swift */; };
 		41D8D99123A0621E00D49725 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D99023A0621E00D49725 /* SceneDelegate.swift */; };
-		41D8D99323A0621E00D49725 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D99223A0621E00D49725 /* HomeScreen.swift */; };
-		41D8D99523A0621E00D49725 /* GalleryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D99423A0621E00D49725 /* GalleryScreen.swift */; };
+		41D8D99323A0621E00D49725 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D99223A0621E00D49725 /* HomeScreenViewController.swift */; };
+		41D8D99523A0621E00D49725 /* GalleryScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8D99423A0621E00D49725 /* GalleryScreenViewController.swift */; };
 		41D8D99823A0621E00D49725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D8D99623A0621E00D49725 /* Main.storyboard */; };
 		41D8D99A23A0621E00D49725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D8D99923A0621E00D49725 /* Assets.xcassets */; };
 		41D8D99D23A0621E00D49725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D8D99B23A0621E00D49725 /* LaunchScreen.storyboard */; };
@@ -42,8 +42,8 @@
 		41D8D98B23A0621E00D49725 /* AcademiaCodigoUITesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcademiaCodigoUITesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D8D98E23A0621E00D49725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41D8D99023A0621E00D49725 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41D8D99223A0621E00D49725 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
-		41D8D99423A0621E00D49725 /* GalleryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryScreen.swift; sourceTree = "<group>"; };
+		41D8D99223A0621E00D49725 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		41D8D99423A0621E00D49725 /* GalleryScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryScreenViewController.swift; sourceTree = "<group>"; };
 		41D8D99723A0621E00D49725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41D8D99923A0621E00D49725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41D8D99C23A0621E00D49725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 		417D4D9223A0765B008009C6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				41D8D99223A0621E00D49725 /* HomeScreen.swift */,
-				41D8D99423A0621E00D49725 /* GalleryScreen.swift */,
+				41D8D99223A0621E00D49725 /* HomeScreenViewController.swift */,
+				41D8D99423A0621E00D49725 /* GalleryScreenViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41D8D99523A0621E00D49725 /* GalleryScreen.swift in Sources */,
-				41D8D99323A0621E00D49725 /* HomeScreen.swift in Sources */,
+				41D8D99523A0621E00D49725 /* GalleryScreenViewController.swift in Sources */,
+				41D8D99323A0621E00D49725 /* HomeScreenViewController.swift in Sources */,
 				41D8D98F23A0621E00D49725 /* AppDelegate.swift in Sources */,
 				41D8D99123A0621E00D49725 /* SceneDelegate.swift in Sources */,
 			);
@@ -273,8 +273,8 @@
 				417D4D9923A077C7008009C6 /* SceneDelegate.swift in Sources */,
 				417D4D9823A077C4008009C6 /* AppDelegate.swift in Sources */,
 				417D4DAC23A07B5B008009C6 /* HomeScreen.swift in Sources */,
-				417D4D9B23A077D6008009C6 /* HomeScreen.swift in Sources */,
-				417D4D9C23A077D8008009C6 /* GalleryScreen.swift in Sources */,
+				417D4D9B23A077D6008009C6 /* HomeScreenViewController.swift in Sources */,
+				417D4D9C23A077D8008009C6 /* GalleryScreenViewController.swift in Sources */,
 				417D4DAE23A07B79008009C6 /* GalleryScreen.swift in Sources */,
 				41D8D9B323A0621E00D49725 /* AcademiaCodigoUITestingUITests.swift in Sources */,
 			);
